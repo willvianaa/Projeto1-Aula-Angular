@@ -1,0 +1,23 @@
+<article>
+     <h1>interpolação</h1>
+     <p> Meu Nome é: {{nome + ", " + sobreNome}}</p>
+     <img src="{{src}}" alt="">
+     <p>{{ true || 10>20 }}</p>
+     <p>{{cumprimenta() }}</p>
+</article>
+<article>
+    <h1>property binding</h1>
+    <p [style.color]="corDaFonte" [style.background]="validaCor ? 'blue' : 'red' ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit ut provident dolores sint quos architecto necessitatibus dicta assumenda. Est repellat tempora amet! Nesciunt id consequatur voluptate dolorem dicta?</p>
+</article>
+<article>
+    <h1>Event binding</h1>
+    <p (click)="mudaCor()" class="botaoP" [style.color]="corDoTexto">Lorem ipsum</p>
+</article>
+<article>
+    <h1>Variável de template</h1>
+    <p [class]="nomeDaClasse">Lorem ipsum</p>
+    <select name="" id="" (change)="alterarModo(estilo.value)" #estilo>
+        <option value="estilo1">Estilo 1</option>
+        <option value="estilo2">Estilo 2</option>
+    </select>
+</article>

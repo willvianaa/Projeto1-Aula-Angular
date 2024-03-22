@@ -1,0 +1,46 @@
+.botaoP {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 16px;
+    color: white;
+    background-color: black;
+    width: 20%;
+    text-align: center;
+}
+
+.botaoP:hover {
+    background-color: rgb(72, 72, 72);
+}
+
+.estilo1 {
+    width: 20%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 16px;
+    color: white;
+    background-color: black;
+    width: 20%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.estilo2 {
+    width: 20%;
+    outline: 2px solid purple;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0), 0, 0;
+    border-radius: 16px;
+    color: rgb(65, 0, 0);
+    background-color: rgb(20, 195, 0);
+    width: 20%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.estilo1:hover {
+    background-color: rgb(72, 72, 72);
+}
+
+.estilo2:hover {
+    background-color: rgb(0, 80, 0);
+}
